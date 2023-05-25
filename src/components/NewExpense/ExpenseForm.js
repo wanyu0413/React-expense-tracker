@@ -17,6 +17,10 @@ const ExpenseForm = () => {
     //   ...userInput,
     //   enteredTitle: event.target.value,
     // });
+
+    // setUserInput((prevState) => {
+    //   return { ...prevState, enteredTitle: event.target.value };
+    // });
   };
 
   const amountChangeHandler = (event) => {
@@ -25,6 +29,10 @@ const ExpenseForm = () => {
     //   ...userInput,
     //   enteredAmount: event.target.value,
     // });
+
+    // setUserInput((prevState) => {
+    //   return { ...prevState, enteredAmount: event.target.value };
+    // });
   };
 
   const dateChangeHandler = (event) => {
@@ -32,6 +40,10 @@ const ExpenseForm = () => {
     // setUserInput({
     //   ...userInput,
     //   enteredDate: event.target.value,
+    // });
+
+    // setUserInput((prevState) => {
+    //   return { ...prevState, enteredDate: event.target.value };
     // });
   };
 
